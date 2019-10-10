@@ -1,0 +1,394 @@
+/*
+Setup the padding and margin to 0px for all the following selectors:
+body, h1, h2, h3, h4, h5, h5, p, ul, ol, li, a.
+*/
+h1,h2,h3,h4,h5,p,ul,ol,li,a{
+    padding:0px;
+    margin:0px;
+}
+
+
+/*
+inside the body selector:
+set the background image to the pattern of your choice 
+set font family to a sans-serif type
+set font size to 15ps
+set text color to #4D4D4D
+*/
+body{
+    background-image: url(combs.png);
+    font-family:Arial,sans-serif;
+    font-size:15px;
+    color:#4d4d4d;
+}
+
+/*
+inside the id wrapper selector:
+set margin top and bottom to 20px and center the wrapper horizontally
+set the width to 999px
+*/
+#wrapper{
+    margin-top:20px;
+    margin-bottom:20px;
+    width:999px;
+}
+
+/*
+inside the class clear selector:
+set clear to both; // THIS IS A NEW PROPERTY
+*/
+.clear{
+clear:10px;
+}
+
+/*
+inside the h1 selector
+set font-family to a serif type
+set text-shadow to 2px 2px 2px #000 // THIS IS A NEW PROPERTY
+set font-size to 199px
+set text color to white
+*/
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow:2px 2px 2px #000000;
+    font-size:199px;
+    color:white;
+}
+
+/*
+inside the h2 selector
+set font-family to a serif type
+set font-size to 35px
+set color to black
+set font-weight to bold
+*/
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:35px;
+    color:black;
+    font-weight:bold;
+}
+
+/*
+inside ul inside header selector:
+set color to white
+set font size to 14px
+set float to right // THIS IS A NEW PROPERTY
+set list-style to none // THIS IS A NEW PROPERTY
+set margin-top to 10px
+*/
+ul header{
+    color:white;
+    font-size:14px;
+    float:right;
+    list-style:none;
+    margin-top:10px;
+}
+
+/*
+inside li inside ul inside header selector:
+set padding-bottom to 6px
+*/
+ul li{
+    padding-bottom:6px;
+}
+
+/*
+inside nav selector:
+set color to white;
+set font-size to 14px
+set width to 100%
+set border-bottom to 2px and dashed
+set padding-bottom to 20px
+set float to left // THIS IS A NEW PROPERTY
+*/
+nav{
+    color:white;
+    font-size:14px;
+    width:100%;
+    border-bottom:2px dashed;
+    padding-bottom:20px;
+    float:left;
+}
+
+/*
+inside a (link, active or visited) inside nav selector:
+set text color to #FADA00;
+set text-decoration to none
+*/
+nav a:active, nav a:visited,nav a:link{
+    text-decoration:none;
+    color:#FADA00;
+}
+
+/*
+inside class links selector:
+set float to left
+set margin-left to 155px
+*/
+.links{
+    float:left;
+    margin-left:155px;
+}
+
+/*
+inside id intro selector:
+set margin-top to 10px;
+*/
+#intro{
+    margin-top:10px;
+}
+
+/*
+inside p inside id intro selector:
+set font-family to a serif type
+set font-size to 45px
+set text color to white;
+*/
+#intro p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:45px;
+    color:white;
+}
+
+/*
+inside class highlight selector:
+set text color to #FADA00;
+*/
+.highlight{
+    color:#FADA00;
+}
+
+/*
+inside class section selector
+set top and bottom margins to 30px and the left and right margins to 0px 
+*/
+.section{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right:0px;
+    margin-left:0px;
+}
+
+/*
+inside class section-title seelector:
+set background-image one time to /images/section-title-bg.png
+set width to 171px
+set height to 41px
+set float to left
+*/
+.section-title{
+    background-image:url(section-title-bg.png);
+    width:171px;
+    height:41px;
+    float:left;
+}
+
+/*
+inside class section-title selector:
+set top and left padding to 7px, right and bottom padding to 0px
+set font-weight to bold
+*/
+.section-title{
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-right:0px;
+    padding-left:0px;
+    font-weight:bold;
+}
+
+/*
+inside class section-body selector:
+set background-color to white
+set width to 94%
+set top margin to -10px, right and bottom to 0px and left margin to 10px
+set top padding to 0px, right, bottom and left padding to 25px
+*/
+.section-body{
+    background-color:white;
+    width:94%;
+    margin-top:-10px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:10px;
+    padding-top:0px;
+    padding-bottom:25px;
+    padding-left:25px;
+    padding-right:25px;
+
+    
+}
+
+/*
+inside div inside class section-body selector:
+set display to inline-block
+*/
+.section-body div{
+    display:inline-block;
+}
+
+/*
+inside class item-template selector:
+set border-bottom to a dashed style with 1px thickness and the color #CCCCCC
+set width to 100%
+set margin top and bottom to 25px
+set padding-bottom to 25px
+*/
+.item-template{
+    border-bottom: dashed 1px #cccccc;
+    width:100%;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+/*
+inside p inside class section-body selector:
+set font-size to 14px
+set line-height to 22px
+set margin-bottom to 25px;
+*/
+.section-body p{
+    font-size:14px;
+    line-height:22px;
+    margin-bottom:25px;
+}
+
+/*
+inside class last-item selector:
+set margin-bottom and border-bottom to 0px
+*/
+.last-item{
+margin-bottom:0px;
+border-bottom:0px;
+}
+
+/*
+inside class demo-dates selector:
+set float to right;
+*/
+.demo-dates{
+    float:right;
+}
+
+/*
+inside ul inside class demo-date selector:
+set list-style to none
+set margin-top to 15px;
+*/
+.demo-date ul{
+    list-style:none;
+    margin-top:15px;
+}
+
+/*
+inside li inside ul inside class demo-dates selector:
+set padding top to 9px, right to 10px, bottom to 7px and left to 40px
+set height to 25px
+set display to inline
+set background-image one time to /icons/check.jpg;
+*/
+.demo-dates ul li{
+    padding-top:9px;
+    padding-right:10px;
+    padding-bottom:7px;
+    padding-left:40px;
+    display:inline;
+    background-image:url(check.jpg;);
+    background-repeat:no-repeat;
+    
+}
+
+/*
+inside class text-small selector:
+set font size to 12px
+set text color to #4D4D4D
+set text-transform to uppercase;
+*/
+.text-small{
+    font-size:12px;
+    color:#4D4D4D;
+    text-transform:uppercase;
+}
+
+/*
+inside class first selector:
+set margin bottom to 3px
+set padding top to 10px;
+*/
+.first{
+    margin-bottom:3px;
+    padding-top:10px;
+}
+
+/*
+inside id go-top selector:
+set to margin to -8px, right and bottom to 0px and left to 1px;
+*/
+#go-top{
+    margin:-8px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:1px;
+}
+
+/*
+inside class hand-cursor selector:
+set cursor to pointer // THIS IS A NEW PROPERTY;
+*/
+.hand-cursor{
+    cursor:pointer;
+}
+
+/*
+inside class section-skip selector:
+set top margin to 3px and other margins to 0px
+set text color to white
+set width to 100%
+set text-align to right;
+*/
+.section-skip{
+    margin-top: 3px;
+    margin:0px;
+    color:white;
+    width:100%;
+    text-align:right;
+}
+
+/*
+inside a (link, active or visited) inside class scroll-links selector:
+set text color to white
+set font size to 10px
+set text-transform to uppercase // THIS IS A NEW PROPERTY;
+*/
+.scroll-links a:link,.scroll-links a:active,.scroll-links a:visited{
+color:white;
+font-size:10px;
+text-transform:uppercase;
+}
+
+/*
+inside footer selector:
+set text color to white
+set font size to 12px;
+*/
+footer{
+    color:white;
+    font-size:12px;
+}
+
+/*
+inside p inside footer selector:
+set margin bottom to 10px;
+*/
+footer p{
+    margin-bottom:10px;
+}
+/*
+inside a (link, active and visited) inside footer:
+set color to #FADA00
+remove link underline
+*/
+footer a{
+    color:#FADA00;
+    text-decoration:none;
+}
